@@ -22,8 +22,12 @@ public class CuentaCorriente extends Cuenta{
             super.Consignar(Monto);
             Sobregiro=Sobregiro+Monto;
         }
+        }
+        public void Imprimir(float Saldo, int NumConsignaciones, float ComisionMensual, boolean Active){
+            
+        }
         
-    }
+    
     @Override
     public void ExtractoMensual(float ComisionMensual){
     }
